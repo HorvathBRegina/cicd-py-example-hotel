@@ -14,6 +14,7 @@ class TestHootel(object):
         self.browser = webdriver.Chrome(options=options)
         self.browser.get(URL)
 
+
     def teardown_method(self):
         self.browser.quit()
 
